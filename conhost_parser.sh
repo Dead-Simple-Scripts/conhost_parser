@@ -72,4 +72,4 @@ do
 		grep -E -i "start:" $str_dir/$line.string > $ioc_res/$line/$line"_start.txt"
 done < "$con_pids"
 
-echo "autoconhost completed"
+echo "conhost_parser completed"
