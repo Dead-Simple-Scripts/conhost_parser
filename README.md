@@ -4,9 +4,13 @@ Script to dump and process CONHOST memory space
 For use with the Volatity Framework
 
 Set-Up:
-Use PLIST plugin to identify CONHOST PIDs\n
-List out CONHOST PIDs in a text file, one PID per line\n
-Run conhost_parser, Example: ./autoconhost.sh memory_image.dat conhost_pids.txt\n
+
+Use PLIST plugin to identify CONHOST PIDs
+
+List out CONHOST PIDs in a text file, one PID per line
+
+Run conhost_parser, Example: ./autoconhost.sh memory_image.dat conhost_pids.txt
+
 
 What it does:
 Identifies KDBG signature with ImageScan
